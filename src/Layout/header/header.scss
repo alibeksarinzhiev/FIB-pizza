@@ -1,0 +1,129 @@
+.header{
+  padding-top: 13px;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__icon{
+    display: flex;
+    column-gap: 52px;
+  }
+  &__info{
+    &__food:after{
+      content: '';
+      display: block;
+      width: 14px;
+      height: 16px;
+      position:absolute;
+      background: url("../../assets/star.png")center/cover no-repeat;
+      right: -18px;
+      top: 5%;
+    }
+    &__food:before{
+      content: '';
+      display: block;
+      width: 18px;
+      height: 18px;
+      position:absolute;
+      background: url("../../assets/image 31 (2).png")center/cover no-repeat;
+      left: -22px;
+      top: 5%;
+    }
+    ul{
+      li{
+        position: relative;
+        display: flex;
+        column-gap: 18px;
+        span{
+          position: relative;
+        }
+      }
+      display: flex;
+      column-gap: 38px;
+      margin-top: 9px;
+    }
+  }
+  &__tel{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    button{
+      width: 170px;
+      height: 44px;
+      border-radius: 28px;
+      background: #F3F3F7;
+      border: none;
+      color: #696F7A;
+      font-family: Montserrat,sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    h2{
+      color: #F7D22D;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  &__moscow{
+    color: #F7D22D;
+  }
+  &__rating:before{
+    width: 4px;
+    height: 4px;
+    content: '';
+    display: block;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: -10px;
+  }
+  &__time:before{
+    width: 4px;
+    height: 4px;
+    content: '';
+    display: block;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: -10px;
+  }
+  &__bottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+      display: flex;
+      column-gap: 15px;
+      color: #0E0C0D;
+
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    p{
+      color: #696F7A;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+    button{
+      color: #231F20;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+     width: 150px;
+      height: 40px;
+      background: #F7D22D;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
