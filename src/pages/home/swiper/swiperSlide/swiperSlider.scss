@@ -1,0 +1,30 @@
+.swiper-button-prev, .swiper-button-next{
+  width: 40px !important;
+  height: 40px !important;
+  background: #F7D22D;
+  border-radius: 50%;
+
+  z-index: 10;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  content: ''!important;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 10px;
+  height: 28px;
+  background: url("next.png")center/cover no-repeat;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  content: ''!important;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 10px;
+  height: 28px;
+  background: url("prev.png")center/cover no-repeat;
+}
