@@ -7,7 +7,7 @@ const Pizza = () => {
     const [pizza,setPizza] = useState([])
 
     useEffect(()=>{
-        axios('http://localhost:3000/products_pizza')
+        axios('http://localhost:8080/products_pizza')
             .then(({data})=>setPizza(data))
     },[])
 
