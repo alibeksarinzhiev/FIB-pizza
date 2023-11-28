@@ -1,0 +1,54 @@
+.action{
+  h2{
+    padding-top: 29pt;
+    color: #F7D22D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__kupony{
+    display: flex;
+     justify-content: space-between;
+    padding-top: 24px;
+  }
+  &__cards{
+    width: 350px;
+    height: 391px;
+    h3{
+      color: #0E0C0D;
+      padding-top: 13px;
+      padding-left: 20px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 140% */
+    }
+    p{
+      color: #797979;
+      padding-top: 7px;
+      padding-left: 20px;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 153.846% */
+    }
+    button{
+      width: 159px;
+      height: 45px;
+      text-align: center;
+      color: #473E43;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 200% */
+      border-radius: 8px;
+      background: #F7D22D;
+      border: none;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
+
+}
+
