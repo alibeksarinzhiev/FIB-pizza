@@ -27,6 +27,7 @@ const Register = () => {
             </div>
             <div className="register__regist">
                 <button>Регистрация</button>
+                <button>Вход</button>
                 <p>Продолжая, вы соглашаетесь со сбором и обработкой персональных данных и пользовательским соглашением</p>
             </div>
         </div>
