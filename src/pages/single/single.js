@@ -7,7 +7,7 @@ const Single = () => {
     const id = useLocation().pathname.at(-1)
 
     useEffect(()=>{
-        axios(`http://localhost:3000/products_pizza/${id}`)
+        axios(`http://localhost:8080/products_pizza/${id}`)
             .then(({data})=>setOnePizza(data))
     },[])
     return (
