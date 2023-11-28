@@ -64,7 +64,6 @@ const Footer = () => {
                         <h2>8 499 391-84-49</h2>
                     </div>
                 </div>
-                <div className="footer__bottom"></div>
             </div>
         </footer>
     );
