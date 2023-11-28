@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.scss'
 import logo from '../../assets/Rectangle 76 (1).png'
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -8,7 +9,9 @@ const Header = () => {
             <div className="container">
                 <div className="header__top">
                     <div className="header__icon">
-                        <img src={logo} alt=""/>
+                        <Link to='/'>
+                            <img src={logo} alt=""/>
+                        </Link>
                         <div className="header__info">
                             <h2>Доставка пасты <span className='header__moscow'>Москва</span></h2>
                             <ul>
@@ -32,11 +35,14 @@ const Header = () => {
                         <li> Десерты </li>
                         <li> Бакалея </li>
                         <li>Антипасти </li>
-                        <li> Акции</li>
+                        <Link to='/action'>Акции</Link>
                         <li> Комбо </li>
                         <li>Контакты</li>
                     </ul>
-                    <p>Войти</p>
+                    <Link to='/login'>
+                        <p>Войти</p>
+
+                    </Link>
                     <button>Корзина</button>
                 </div>
             </div>

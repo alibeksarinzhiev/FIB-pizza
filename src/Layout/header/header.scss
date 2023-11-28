@@ -1,5 +1,9 @@
 .header{
   padding-top: 13px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
   &__top{
     display: flex;
     justify-content: space-between;
