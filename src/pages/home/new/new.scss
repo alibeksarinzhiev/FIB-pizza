@@ -1,0 +1,15 @@
+.new{
+  &__box{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    background: white;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
+    padding: 14px 35px 14px 17px;
+    border-radius: 12px;
+  }
+}
