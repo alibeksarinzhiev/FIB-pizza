@@ -1,0 +1,111 @@
+.pizzass{
+  padding-top: 53px;
+  padding-bottom: 53px;
+  &__center{
+    display: flex;
+    column-gap: 80px;
+    img{
+      width: 500px;
+      height: 500px;
+    }
+  }
+  &__right{
+    h2{
+      color: #0E0C0D;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+    }
+    h4{
+      color: #686466;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      padding-top: 10px;
+    }
+    p{
+      color: #686466;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 600;
+      padding-top: 10px;
+    }
+    button{
+      border-radius: 8px;
+      background: #F7D22D;
+      border: none;
+      width: 420px;
+      height: 59px;
+      color: #231F20;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 800;
+      margin-top: 20px;
+    }
+  }
+  &__size{
+    display: flex;
+    column-gap: 30px;
+    button{
+      width: 120px;
+      height: 44px;
+      margin-top: 15px;
+      border-radius: 8px;
+      opacity: 0.9;
+      background: #F3F3F7;
+      border: none;
+      color: #231F20;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  &__list {
+    display: flex;
+    column-gap: 30px;
+
+    button {
+      width: 195px;
+      height: 44px;
+      margin-top: 15px;
+      border-radius: 8px;
+      opacity: 0.9;
+      background: #F3F3F7;
+      border: none;
+      color: #231F20;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  &__garnir{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+  }
+  &__souse{
+    border-radius: 12px;
+    border: 1.5px solid #E2E2E9;
+    background: #FFF;
+    width: 120px;
+    height: 179px;
+    img{
+      width: 84px;
+      height: 91px;
+    }
+    h3{
+      color: #000;
+      text-align: center;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+    }
+    h4{
+      color: #F7D22D;
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 800;
+    }
+  }
+}
