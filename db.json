@@ -5,6 +5,7 @@
       "image":"utils/shrimp_and_truffles.png",
       "title": "С креветками и трюфелями",
       "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+      "new": "false",
       "price":600,
       "category": "pizza",
       "quantity":1,
@@ -16,108 +17,144 @@
       "image":"utils/cheese.jpg",
       "title": "Сырная",
       "description": "Моцарелла, смесь сыров чеддер и пармезан, соус альфредо",
+      "new": "false",
       "price": 295,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id":3,
       "image":"utils/julien.jpg",
       "title": "Жюльен",
       "description": "Цыпленок, моцарелла, смесь сыров чеддер и пармезан, шампиньоны, лук красный, чеснок сухой, сливочный соус с грибами, соус альфредо",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 4,
       "image":"utils/double_chicken.png",
       "title": "Двойной цыпленок",
       "description": "Двойная порция цыпленка, моцарелла, соус альфредо",
+      "new": "false",
       "price": 325,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 5,
       "image":"utils/ham_and_cheese.jpg",
       "title": "Ветчина и сыр",
       "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
+      "new": "false",
       "price": 295,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 6,
       "image":"utils/dodo_mix.jpeg",
       "title": "Додо Микс",
       "description": "Цыпленок, ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, сыр блю чиз, кубики брынзы, красный лук, томаты, чеснок сухой, итальянские травы, соус песто, соус альфредо",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 7,
       "image":"utils/pesto.avif",
       "title": "Песто",
       "description": "Цыпленок, моцарелла, кубики брынзы, томаты, соус песто, соус альфредо",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 8,
       "image":"utils/carbonara.jpg",
       "title": "Карбонара",
       "description": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
+      "new": "false",
       "price": 445,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 9,
       "image":"utils/burger_pizza.jpg",
       "title": "Бургер Пицца",
       "description": "Ветчина из цыпленка, моцарелла, лук красный, томаты, соленые огурчики, чеснок сухой, бургер соус, томатный соус",
+      "new": "false",
       "price": 445,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 10,
       "image":"utils/meat.jpg",
       "title": "Мясная",
       "description": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 11,
       "image":"utils/cheese_chicken.jpg",
       "title": "Сырный цыпленок",
       "description": "Цыпленок, моцарелла, смесь сыров чеддер и пармезан, томаты, чеснок сухой, сырный соус, соус альфредо",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 12,
       "image":"utils/asian.jpeg",
       "title": "Азиатская",
       "description": "Фарш из говядины, моцарелла, сушенный перец Чили, томаты, красный лук, сладкий перец, томатный соус",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     },
     {
       "id": 13,
       "image":"utils/super_meaty.png",
       "title": "Супермясная",
       "description": "Цыпленок, пепперони из цыпленка, ветчина из цыпленка, фарш из говядины, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+      "new": "false",
       "price": 475,
       "category": "pizza",
-      "quantity":1
+      "quantity":1,
+      "sm": [25,30,35],
+      "size": [360,460,560]
     }
   ],
   "products_garnish": [
@@ -152,6 +189,22 @@
       "price": 59,
       "category": "garnish",
       "quantity":1
+    }
+  ],
+  "products_beverages": [
+    {
+      "id":1,
+      "image": "",
+      "title": "",
+      "description": "",
+      "price": "",
+      "ml": [
+        
+      ],
+      "quantity":1
+    },
+    {
+
     }
   ]
 }
