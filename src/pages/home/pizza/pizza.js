@@ -1,15 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './pizza.scss'
-import axios from "axios";
 import {Link} from "react-router-dom";
+import {CustomContext} from "../../../Context";
 
 const Pizza = () => {
-    const [pizza,setPizza] = useState([])
+    const {pizza} = useContext(CustomContext)
 
-    useEffect(()=>{
-        axios('http://localhost:8080/products_pizza')
-            .then(({data})=>setPizza(data))
-    },[])
 
     return (
         <section className='pizza'>

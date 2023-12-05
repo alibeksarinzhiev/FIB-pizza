@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './header.scss'
 import logo from '../../assets/Rectangle 76 (1).png'
 import {Link} from "react-router-dom";
+import { CiUser } from "react-icons/ci";
+import {CustomContext} from "../../Context";
+
 
 const Header = () => {
+    const {user} = useContext(CustomContext)
+    console.log(user.email.length)
     return (
         <header className='header'>
             <div className="container">
@@ -39,10 +44,16 @@ const Header = () => {
                         <li> Комбо </li>
                         <li>Контакты</li>
                     </ul>
-                    <Link to='/login'>
+                    {user.email.length?
+                        <CiUser/>
+                       : <Link to='/login'>
                         <p>Войти</p>
+                        </Link> }
 
-                    </Link>
+                    {/*{user.name.length >0?user.name:''}*/}
+
+
+
                     <button>Корзина</button>
                 </div>
             </div>
