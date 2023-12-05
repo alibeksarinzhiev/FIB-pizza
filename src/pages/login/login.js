@@ -1,6 +1,7 @@
 import React from 'react';
 import Exet from './image/Close.png'
 import './login.scss'
+import {Link} from "react-router-dom";
 
 const Login = () => {
     return (
@@ -21,7 +22,9 @@ const Login = () => {
             </div>
             <div className="login__vhod">
                 <button>Войти</button>
-                <button>Регестрация</button>
+                <Link to='/register'>
+                    <button>Регестрация</button>
+                </Link>
                 <p>Продолжая, вы соглашаетесь со сбором и обработкой персональных данных и пользовательским соглашением</p>
             </div>
          

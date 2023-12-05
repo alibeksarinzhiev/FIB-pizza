@@ -9,6 +9,10 @@ import Login from "./pages/login/login";
 import Register from "./pages/register/register";
 import Single from "./pages/single/single";
 import './app.scss'
+import Beverages from "./pages/home/beverages/beverages";
+import Dessert from "./pages/home/dessert/dessert";
+import Combo from "./pages/home/combo/combo";
+import Snacks from "./pages/home/snacks/snacks";
 
 const App = () => {
     return (
@@ -22,6 +26,10 @@ const App = () => {
                 <Route path={'login'} element={<Login/>}/>
                 <Route path={'register'} element={<Register/>}/>
                 <Route path={'single/:id'} element={<Single/>}/>
+                <Route path={'beverages'} element={<Beverages/>}/>
+                <Route path={'dessert'} element={<Dessert/>}/>
+                <Route path={'combo'} element={<Combo/>}/>
+                <Route path={'snacks'} element={<Snacks/>}/>
             </Route>
             </Routes>
         </>

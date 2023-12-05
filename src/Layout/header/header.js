@@ -27,21 +27,20 @@ const Header = () => {
                 </div>
                 <div className="header__bottom">
                     <ul>
-                        <li>Пицца</li>
+                        <Link to=''>Пицца</Link>
                         <li>Паста</li>
                         <li> Супы </li>
                         <li>  Салаты  </li>
-                        <li> Напитки </li>
-                        <li> Десерты </li>
-                        <li> Бакалея </li>
+                        <Link to='/beverages'>Напитки</Link>
+                        <Link to='/dessert'> Десерты </Link>
+                        <Link to='/snacks'> Закуски </Link>
                         <li>Антипасти </li>
                         <Link to='/action'>Акции</Link>
-                        <li> Комбо </li>
+                        <Link to='/combo'> Комбо </Link>
                         <li>Контакты</li>
                     </ul>
                     <Link to='/login'>
                         <p>Войти</p>
-
                     </Link>
                     <button>Корзина</button>
                 </div>
