@@ -1,0 +1,28 @@
+.cart{
+  padding: 50px 0;
+  &__one{
+    display: flex;
+    align-items: center;
+margin-top: 30px;
+
+    justify-content: space-between;
+  }
+  &__info{
+    display: flex;
+    width: 55%;
+    img{
+      width: 71px;
+      height: 71px;
+    }
+  }
+  &__quantity{
+    display: flex;
+    border-radius: 8px;
+    background: #F3F3F7;
+    column-gap: 20px;
+    padding: 9px 15px;
+    span{
+      font-size: 22px;
+    }
+  }
+}

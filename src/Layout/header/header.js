@@ -7,8 +7,7 @@ import {CustomContext} from "../../Context";
 
 
 const Header = () => {
-    const {user} = useContext(CustomContext)
-    console.log(user.email.length)
+    const {user,logOut} = useContext(CustomContext)
     return (
         <header className='header'>
             <div className="container">
@@ -32,29 +31,32 @@ const Header = () => {
                 </div>
                 <div className="header__bottom">
                     <ul>
-                        <li>Пицца</li>
+                        <Link to=''>Пицца</Link>
                         <li>Паста</li>
                         <li> Супы </li>
                         <li>  Салаты  </li>
-                        <li> Напитки </li>
-                        <li> Десерты </li>
-                        <li> Бакалея </li>
+                        <Link to='/beverages'>Напитки</Link>
+                        <Link to='/dessert'> Десерты </Link>
+                        <Link to='/snacks'> Закуски </Link>
                         <li>Антипасти </li>
                         <Link to='/action'>Акции</Link>
-                        <li> Комбо </li>
+                        <Link to='/combo'> Комбо </Link>
                         <li>Контакты</li>
                     </ul>
                     {user.email.length?
-                        <CiUser/>
+                        <div>
+                            <CiUser className='header__acc'/>
+                            {user.name}
+                            <button onClick={()=>logOut()}>Выйти</button>
+                        </div>
                        : <Link to='/login'>
                         <p>Войти</p>
                         </Link> }
 
-                    {/*{user.name.length >0?user.name:''}*/}
+        <Link to='/cart'>
+            <button>Корзина</button>
 
-
-
-                    <button>Корзина</button>
+        </Link>
                 </div>
             </div>
         </header>

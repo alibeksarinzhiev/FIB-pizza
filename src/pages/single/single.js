@@ -7,7 +7,6 @@ import holopen from './image/holopen.png'
 const Single = () => {
     const [onePizza,setOnePizza] = useState({})
     const id = useLocation().pathname.at(-1)
-
     useEffect(()=>{
         axios(`http://localhost:8080/products_pizza/${id}`)
             .then(({data})=>setOnePizza(data))
@@ -19,9 +18,8 @@ const Single = () => {
                     <img src={'../'+onePizza.image} alt=""/>
                     <div className='pizzass__right'>
                         <h2>{onePizza.title}</h2>
-                        <h4>25 см, традиционное тесто, 360 г
+                        <h4>{onePizza.description}
                         </h4>
-                        <p>Моцарелла, соус альфредо</p>
                         <div className='pizzass__size'>
                             <button>Маленькая</button>
                             <button>Средняя</button>

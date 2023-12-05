@@ -7,6 +7,7 @@ import axios from "axios";
 import {CustomContext} from "../../Context";
 import {useNavigate} from 'react-router-dom'
 
+import {Link} from "react-router-dom";
 
 
 const Register = () => {
@@ -86,13 +87,16 @@ const Register = () => {
 
                 </div>
             </div>
-            <div className="register__regist">
-                <button>Регистрация</button>
-                <button>Вход</button>
-                <p>Продолжая, вы соглашаетесь со сбором и обработкой персональных данных и пользовательским соглашением</p>
-            </div>
+                <div className="register__regist">
+                    <button>Регистрация</button>
+                    <Link to='/login'>
+                        <button>Вход</button>
+                    </Link>
+                    <p>Продолжая, вы соглашаетесь со сбором и обработкой персональных данных и пользовательским соглашением</p>
+                </div>
             </form>
         </div>
+
     );
 };
 
