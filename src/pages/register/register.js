@@ -49,7 +49,9 @@ const Register = () => {
             <form onSubmit={(e)=>registerUser(e)}>
             <div className="register__top">
                 <h2>Регистрация на сайт</h2>
-                <img src={Exet} alt=""/>
+                <Link to='/'>
+                    <img src={Exet} alt=""/>
+                </Link>
             </div>
             <div className="register__center">
                 <div className="register__text">

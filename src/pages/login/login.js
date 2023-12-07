@@ -8,7 +8,9 @@ const Login = () => {
         <div className='login container'>
             <div className="login__top">
                 <h2>Вход на сайт</h2>
-                <img src={Exet} alt=""/>
+                <Link to='/'>
+                    <img src={Exet} alt=""/>
+                </Link>
             </div>
             <div className="login__center">
                 <div className="login__text">

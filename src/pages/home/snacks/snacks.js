@@ -1,15 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './snacks.scss'
 import {Link} from "react-router-dom";
-import axios from "axios";
+import {CustomContext} from "../../../Context";
 
 const Snacks = () => {
-    const [snacks,setSnacks]=useState([])
+    const {snacks,addSnacks} = useContext(CustomContext)
 
-    useEffect(()=>{
-        axios('http://localhost:8080/products_snacks')
-            .then(({data})=>setSnacks(data))
-    },[])
 
     return (
         <section className='snacks'>
@@ -28,7 +24,7 @@ const Snacks = () => {
                             </div>
                             <div className="snacks__bottom">
                                 <h4>{el.price} сом</h4>
-                                <button>В корзину</button>
+                                <button onClick={()=>addSnacks(el.id)}>В корзину</button>
                             </div>
                         </div>
                     ))}

@@ -1,16 +1,11 @@
-import React, {useEffect,useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './combo.scss'
 import {Link} from "react-router-dom";
-import axios from "axios";
+import {CustomContext} from "../../../Context";
 
 
 const Combo = () => {
-    const [combo,setCombo]=useState([])
-
-    useEffect(()=>{
-        axios('http://localhost:8080/products_combo')
-            .then(({data})=>setCombo(data))
-    },[])
+    const {combo,addCombo} = useContext(CustomContext)
 
 
     return (
@@ -33,7 +28,7 @@ const Combo = () => {
                                     <h4>{el.new_price} сом</h4>
                                     <s><h5>{el.old_price} com</h5></s>
                                 </div>
-                                <button>В корзину</button>
+                                <button onClick={()=>addCombo(el.id)}>В корзину</button>
                             </div>
                         </div>
                     ))}

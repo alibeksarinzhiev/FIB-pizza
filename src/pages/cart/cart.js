@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import img from './image 9.png'
 import close from './image 41.png'
 import './cart.scss'
@@ -6,6 +6,8 @@ import {CustomContext} from "../../Context";
 
 const Cart = () => {
     const {basket} = useContext(CustomContext)
+
+
     return (
         <section className='cart'>
             <div className="container">
@@ -26,7 +28,7 @@ const Cart = () => {
                         </div>
                         <div className="cart__all">
                             <div className="cart__quantity">
-                                <span className='cart__minus'>-</span>
+                                <span className='cart__minus' >-</span>
                                 <h3>{el.quantity}</h3>
                                 <span className='cart__plus'>+</span>
                             </div>

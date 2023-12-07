@@ -28,9 +28,17 @@
       "new": false,
       "price": 295,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 3,
@@ -40,9 +48,17 @@
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 4,
@@ -52,9 +68,17 @@
       "new": false,
       "price": 325,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 5,
@@ -64,10 +88,17 @@
       "new": false,
       "price": 295,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
-
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 6,
@@ -77,9 +108,17 @@
       "new": false,
       "price": 475,
       "category": "pizza",
-  "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 7,
@@ -89,9 +128,17 @@
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 8,
@@ -101,9 +148,17 @@
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 9,
@@ -113,9 +168,17 @@
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 10,
@@ -125,9 +188,17 @@
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 11,
@@ -137,9 +208,17 @@
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 12,
@@ -150,8 +229,16 @@
       "price": 475,
       "category": "pizza",
       "quantity": 1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 13,
@@ -162,97 +249,159 @@
       "price": 475,
       "category": "pizza",
       "quantity": 1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 14,
-      "image":"utils/hawaiian.jpg",
+      "image": "utils/hawaiian.jpg",
       "title": "Гавайская",
       "description": "Ветчина из цыпленка, моцарелла, ананасы, томатный соус",
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 15,
-      "image":"utils/dodo.png",
+      "image": "utils/dodo.png",
       "title": "Додо",
       "description": "Ветчина из цыпленка, пепперони из цыпленка, фарш из говядины, моцарелла, шампиньоны, сладкий перец, красный лук, томаты, чеснок сухой, томатный соус",
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 16,
-      "image":"utils/bbq_chicken.jpg",
+      "image": "utils/bbq_chicken.jpg",
       "title": "Цыпленок барбекю",
       "description": "Цыпленок, ветчина из цыпленка, моцарелла, красный лук, соус барбекю, томатный соус",
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 17,
-      "image":"utils/arriva.jpg",
+      "image": "utils/arriva.jpg",
       "title": "Аррива!",
       "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 18,
-      "image":"utils/four_cheeses_with_honey.jpg",
+      "image": "utils/four_cheeses_with_honey.jpg",
       "title": "Четыре сыра с медом",
       "description": "Моцарелла, смесь сыров чеддер и пармезан, сыр блю чиз, соус альфредо",
       "new": false,
       "price": 475,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 19,
-      "image":"utils/pepperoni.webp",
+      "image": "utils/pepperoni.webp",
       "title": "Пепперони",
       "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
     },
     {
       "id": 20,
-      "image":"utils/chicken_ranch.jpg",
+      "image": "utils/chicken_ranch.jpg",
       "title": "Цыпленок ранч",
       "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
       "new": false,
       "price": 445,
       "category": "pizza",
-      "quantity":1,
-      "sm": [25,30,35],
-      "size": [360,460,560]
-    }
-  ],
-  "products_beverages": [
+      "quantity": 1,
+      "sm": [
+        25,
+        30,
+        35
+      ],
+      "size": [
+        360,
+        460,
+        560
+      ]
+    },
     {
-      "id":1,
+      "id": 21,
       "new": false,
       "image": "utils/morse_cranberry.webp",
       "title": "Морс Клюква",
@@ -262,10 +411,10 @@
       "ml": [
         "0,45"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":2,
+      "id": 22,
       "new": false,
       "image": "utils/morse_cherry.webp",
       "title": "Морс Вишня",
@@ -275,10 +424,10 @@
       "ml": [
         "0,45"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":3,
+      "id": 23,
       "new": false,
       "image": "utils/mors_blackcurrant.webp",
       "title": "Морс Черная Смородина",
@@ -288,10 +437,10 @@
       "ml": [
         "0,45"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":4,
+      "id": 24,
       "new": false,
       "image": "utils/coca_cola.webp",
       "title": "Кока-Кола",
@@ -299,12 +448,13 @@
       "price": "75",
       "category": "beverages",
       "ml": [
-        "0,5","1.0"
+        "0,5",
+        "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":5,
+      "id": 25,
       "new": false,
       "image": "utils/fanta.webp",
       "title": "Фанта",
@@ -312,12 +462,13 @@
       "price": "75",
       "category": "beverages",
       "ml": [
-        "0,5","1.0"
+        "0,5",
+        "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":6,
+      "id": 26,
       "new": false,
       "image": "utils/sprite.webp",
       "title": "Спрайт",
@@ -325,12 +476,13 @@
       "price": "75",
       "category": "beverages",
       "ml": [
-        "0,5","1.0"
+        "0,5",
+        "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":7,
+      "id": 27,
       "new": false,
       "image": "utils/fuse_tea.webp",
       "title": "Fuse tea",
@@ -340,10 +492,10 @@
       "ml": [
         "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":8,
+      "id": 28,
       "new": false,
       "image": "utils/bon_aqua.webp",
       "title": "BonAqua",
@@ -353,10 +505,10 @@
       "ml": [
         "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":9,
+      "id": 29,
       "new": false,
       "image": "utils/juice_orange.webp",
       "title": "Сок Апельсин",
@@ -366,10 +518,10 @@
       "ml": [
         "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":10,
+      "id": 30,
       "new": false,
       "image": "utils/juice_apple.webp",
       "title": "Сок Яблоко",
@@ -379,10 +531,10 @@
       "ml": [
         "1.0"
       ],
-      "quantity":1
+      "quantity": 1
     },
     {
-      "id":11,
+      "id": 31,
       "new": false,
       "image": "utils/juice_cherry.webp",
       "title": "Сок Вишня",
@@ -392,42 +544,1245 @@
       "ml": [
         "1.0"
       ],
-      "quantity":1
-
-    }
-  ],
-  "products_supplements": [
+      "quantity": 1
+    },
     {
-      "id": 1,
+      "id": 32,
       "image": "utils/cheese_side.png",
       "title": "Сырный бортик",
       "price": 160,
-      "category": "garnish",
+      "category": "supplements",
       "quantity": 1
     },
     {
-      "id": 2,
+      "id": 33,
       "image": "utils/spicy_jalapeño.png",
       "title": "Острый халапеньо",
       "price": 29,
-      "category": "garnish",
+      "category": "supplements",
       "quantity": 1
     },
     {
-      "id": 3,
+      "id": 34,
       "image": "utils/cheddar_and_parmisan.png",
       "title": "Чедер и пармизан",
       "price": 59,
-      "category": "garnish",
+      "category": "supplements",
       "quantity": 1
     },
     {
-      "id": 4,
+      "id": 35,
       "image": "utils/mozzarello_cheese.png",
       "title": "Сыр Моцарелло",
       "price": 59,
-      "category": "garnish",
+      "category": "supplements",
       "quantity": 1
+    },
+    {
+      "id": 36,
+      "image": "utils/dodster_with_ham.webp",
+      "title": "Додстер с ветчиной",
+      "description": "Горячая закуска с ветчиной из цыпленка, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+      "price": 189,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 37,
+      "image": "utils/dodster.webp",
+      "title": "Додстер",
+      "description": "Горячая закуска с цыплёнком, моцареллой, томатами и соусом ранч в тонкой пшеничной лепешке",
+      "price": 189,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 38,
+      "image": "utils/spicy_dodster.webp",
+      "title": "Острый Додстер",
+      "description": "Горячая закуска с цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+      "price": 199,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 39,
+      "image": "utils/danwich_ham_and_cheese.webp",
+      "title": "Дэнвич Ветчина и сыр",
+      "description": "Поджаристая чиабатта и знакомое сочетание ветчины из цыпленка, цыпленка, моцареллы со свежими томатами и соусом ранч",
+      "price": 199,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 40,
+      "image": "utils/danwich_chorizo_bbq.webp",
+      "title": "Дэнвич Чоризо-Барбекю",
+      "description": "Поджаристая чиабатта и знакомое сочетание ветчины из цыпленка, цыпленка, моцареллы со свежими томатами и соусом ранч",
+      "price": 199,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 41,
+      "image": "utils/mushroom_starter.webp",
+      "title": "Грибной Стартер",
+      "description": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
+      "price": 169,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 42,
+      "image": "utils/spicy_starter.webp",
+      "title": "Острый Стартер",
+      "description": "Горячая закуска с острым цыпленком, колбасками чоризо, моцареллой, перцем халапеньо и соусом сальса в тонкой пшеничной лепешке",
+      "price": 169,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 43,
+      "image": "utils/pasta_sarbonara.webp",
+      "title": "Паста Карбонара",
+      "description": "Паста с ветчиной из цыпленка, сырами моцарелла, чеддер и пармезан, томатами, чесноком и фирменным соусом альфредо",
+      "price": 315,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 44,
+      "image": "utils/pesto_pasta.webp",
+      "title": "Паста Песто",
+      "description": "Паста с цыпленком, моцареллой, томатами, соусом песто и фирменным томатным соусом",
+      "price": 315,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 45,
+      "image": "utils/pesto_meat.webp",
+      "title": "Паста Мясная",
+      "description": "Паста с фаршем из говядины, моцареллой, чесноком, соусом бургер и фирменным томатным соусом",
+      "price": 315,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 46,
+      "image": "utils/potatoes_from_the_oven.webp",
+      "title": "Картофель из печи, большая порция.",
+      "description": "Ароматный запеченный картофель с итальянскими травами. Большая порция!",
+      "price": 189,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 47,
+      "image": "utils/lunchbox_with_chicken_pieces.webp",
+      "title": "Ланчбокс с куриными кусочками",
+      "description": "Горячий сытный обед с нежными куриными кусочками, картофелем из печи, итальянскими травами и сырным соусом",
+      "price": 325,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 48,
+      "image": "utils/lunchbox_with_bbq_wings.webp",
+      "title": "Ланчбокс с крыльями барбекю",
+      "description": "Горячий сытный обед с куриными крылышками со специями и ароматом копчения и картофеля из печи с итальянскими травами и соусом барбекю",
+      "price": 325,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 49,
+      "image": "utils/chicken_pieces.webp",
+      "title": "Куриные кусочки",
+      "description": "Кусочки куриного филе в хрустящей панировке",
+      "price": 395,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 50,
+      "image": "utils/bbq_wings.webp",
+      "title": "Крылья барбекю",
+      "description": "Пикантные куриные крылышки со специями и ароматом копчения",
+      "price": 395,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 51,
+      "image": "utils/pepperoni_rolls_cheese_rolls.webp",
+      "title": "Рулетики с пепперони + Рулетики с сыром",
+      "description": "Микс горячих рулетиков с сырным соусом: 8 штук с пепперони и моцареллой, 8 штук с моцареллой",
+      "price": 245,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 52,
+      "image": "utils/caesar_salad.webp",
+      "title": "Салат Цезарь",
+      "description": "Цыпленок, смесь сыров чеддер и пармезан, томаты черри, пшеничные гренки, листья салата айсберг, итальянские травы и соус Цезарь",
+      "price": 189,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 53,
+      "image": "utils/greek_salad.webp",
+      "title": "Салат Греческий",
+      "description": "Салат айсберг, томаты черри, маслины и огурчики, кубики брынзы, соус бальзамик",
+      "price": 159,
+      "category": "snacks",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 54,
+      "image": "utils/sorbet_turkish_pomegranate_with_strawberries.webp",
+      "title": "Сорбет Турецкий гранат с клубникой",
+      "description": "Горячий восток в прохладном десерте. Оцените дуэт граната и сладкой клубники. Название продукта фантазийное и не означает, что продукт содержит гранаты из Турции",
+      "price": 130,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 55,
+      "image": "utils/sorbet_brazilian_passion_fruit_and_mango.webp",
+      "title": "Сорбет Бразильская маракуйя и манго",
+      "description": "Сладкое солнце Бразилии. Яркий сорбет из маракуйи и манго. Название продукта фантазийное и не означает, что продукт содержит маракуйю из Бразилии",
+      "price": 130,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 56,
+      "image": "utils/strawberry_donut.webp",
+      "title": "Пончик клубничный",
+      "description": "Нежный пончик с клубничной начинкой и разноцветной посыпкой",
+      "price": 149,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 57,
+      "image": "utils/donut_three_chocolates.webp",
+      "title": "Пончик Три шоколадай",
+      "description": "Нежный пончик с шоколадной начинкой, глазурью и посыпкой",
+      "price": 149,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 58,
+      "image": "utils/brownie.webp",
+      "title": "Брауни",
+      "description": "Умножили какао на шоколад и получили изумительный десерт. Вот такая сладкая арифметика!",
+      "price": 149,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 59,
+      "image": "utils/tiramisu.webp",
+      "title": "Тирамису",
+      "description": "Десерт со вкусом dolce vita! Многослойный нежный тирамису в лучших итальянских традициях!",
+      "price": 189,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 60,
+      "image": "utils/muffin_three_chocolates.webp",
+      "title": "Маффин Три шоколада",
+      "description": "Десерт из натурального какао, нежной начинки на основе шоколада и кубиков белого и молочного шоколада",
+      "price": 129,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 61,
+      "image": "utils/salted_caramel_muffin.webp",
+      "title": "Маффин соленая карамель",
+      "description": "Десерт из натурального какао с необычным сочетанием соленой карамели и арахиса",
+      "price": 129,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 62,
+      "image": "utils/cheesecake.webp",
+      "title": "Чизкейк",
+      "description": "Классический американский десерт с мягким бархатистым вкусом",
+      "price": 159,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 63,
+      "image": "utils/banana_cheesecake_with_chocolate_cookies.webp",
+      "title": "Чизкейк Банановый с шоколадным печеньем",
+      "description": "Нежный десерт с бананом и шоколадным печеньем",
+      "price": 159,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 64,
+      "image": "utils/bracelets.webp",
+      "title": "Бруслетики",
+      "description": "Сладкие рулетики с натуральной брусникой",
+      "price": 169,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 65,
+      "image": "utils/cinnamon_rolls.webp",
+      "title": "Рулетики с корицей",
+      "description": "Сладкие рулетики с корицей",
+      "price": 169,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 66,
+      "image": "utils/syrniki.webp",
+      "title": "Сырники",
+      "description": "Нежные, в меру сладкие и румяные сырники из печи со сгущенным молоком. Любимый десерт наших гостей!",
+      "price": 295,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 67,
+      "image": "utils/cheesecakes_with_raspberry_jam.webp",
+      "title": "Сырники с малиновым вареньем",
+      "description": "Нежные сырники, приготовленные в печи, с малиновым вареньем",
+      "price": 295,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 68,
+      "image": "utils/fondant.webp",
+      "title": "Фондан",
+      "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
+      "price": 295,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 69,
+      "image": "utils/fairy_tale_dessert_with_toy.webp",
+      "title": "Десерт-сказка с игрушкой на коробке",
+      "description": "Волшебное сочетание ананасов и шоколадного соуса на слоеном тесте. В наборе игрушка-конструктор из коробки и сказка.",
+      "price": 295,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 70,
+      "image": "utils/macaron_ferrero_rocher.webp",
+      "title": "Макарон Ферреро Роше",
+      "description": "Те самые макарон от Сабины Темиралиевой! Изысканный вкус сладкого фундучного пралине, сочного цельного жареного фундука и соленая карамель, дополненная благородством золотистых акцентов. Настоящий гастрономический шедевр!",
+      "price": 250,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 71,
+      "image": "utils/macaron_pistachio_raspberry.webp",
+      "title": "Макарон Фисташка-малина",
+      "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
+      "price": 250,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 72,
+      "image": "utils/macaron_snickers.webp",
+      "title": "Макарон Сникерс",
+      "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
+      "price": 250,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 73,
+      "image": "utils/mango_passion_fruit_macaron.webp",
+      "title": "Макарон Манго-маракуйя",
+      "description": "Те самые макарон от Сабины Темиралиевой! Микс, который никогда не выйдет из трендов за счет своего умопомрачительного сочетания сладких ноток манго и фантастической кислинки маракуйи!",
+      "price": 250,
+      "category": "dessert",
+      "quantity": 1,
+      "new": false
+    },
+    {
+      "id": 74,
+      "image": "utils/two_pizzas_and_a_drink.webp",
+      "title": "2 пиццы и напиток",
+      "description": "Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2 - 4 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 885,
+      "old_price": 1090,
+      "combo_components": [
+        {
+          "id": 24,
+          "new": false,
+          "image": "utils/coca_cola.webp",
+          "title": "Кока-Кола",
+          "description": "Этот напиток обладает сладковато-газированным вкусом, сочетающимся с легкой карамельной ноткой",
+          "price": "75",
+          "category": "beverages",
+          "ml": [
+            "0,5",
+            "1.0"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 5,
+          "image": "utils/ham_and_cheese.jpg",
+          "title": "Ветчина и сыр",
+          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
+          "new": false,
+          "price": 295,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 12,
+      "new": false
+    },
+    {
+      "id": 75,
+      "image": "utils/two_birds.webp",
+      "title": "2 пиццы",
+      "description": "Парочка что надо. 2 средние пиццы. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 1095,
+      "old_price": 1290,
+      "combo_components": [
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 17,
+          "image": "utils/arriva.jpg",
+          "title": "Аррива!",
+          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 15,
+      "new": false
+    },
+    {
+      "id": 76,
+      "image": "utils/three_pizzas.webp",
+      "title": "3 пиццы",
+      "description": "Три удовольствия в нашем меню - это три средние пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 1645,
+      "old_price": 1935,
+      "combo_components": [
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "image": "utils/chicken_ranch.jpg",
+          "title": "Цыпленок ранч",
+          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 15,
+      "new": false
+    },
+    {
+      "id": 77,
+      "image": "utils/five_pizzas.webp",
+      "title": "5 пиццы",
+      "description": "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10 - 15 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 2645,
+      "old_price": 3225,
+      "combo_components": [
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "image": "utils/chicken_ranch.jpg",
+          "title": "Цыпленок ранч",
+          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 8,
+          "image": "utils/carbonara.jpg",
+          "title": "Карбонара",
+          "description": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 17,
+          "image": "utils/arriva.jpg",
+          "title": "Аррива!",
+          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 18,
+      "new": false
+    },
+    {
+      "id": 78,
+      "image": "utils/seven_pizzas.webp",
+      "title": "7 пиццы",
+      "description": "7 - счастливое число, особенно если речь о 7 средних пиццах на компанию 15 - 20 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 3695,
+      "old_price": 4515,
+      "combo_components": [
+        {
+          "id": 5,
+          "image": "utils/ham_and_cheese.jpg",
+          "title": "Ветчина и сыр",
+          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
+          "new": false,
+          "price": 295,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 17,
+          "image": "utils/arriva.jpg",
+          "title": "Аррива!",
+          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 10,
+          "image": "utils/meat.jpg",
+          "title": "Мясная",
+          "description": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+          "new": false,
+          "price": 475,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 20,
+          "image": "utils/chicken_ranch.jpg",
+          "title": "Цыпленок ранч",
+          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 16,
+          "image": "utils/bbq_chicken.jpg",
+          "title": "Цыпленок барбекю",
+          "description": "Цыпленок, ветчина из цыпленка, моцарелла, красный лук, соус барбекю, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 18,
+      "new": false
+    },
+    {
+      "id": 79,
+      "image": "utils/ten_pizzas.webp",
+      "title": "10 пиццы",
+      "description": "Великолепная десятка. 10 средних пицц на любой вкус. Для компании из 20 - 30 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 5145,
+      "old_price": 6450,
+      "combo_components": [
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 17,
+          "image": "utils/arriva.jpg",
+          "title": "Аррива!",
+          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 5,
+          "image": "utils/ham_and_cheese.jpg",
+          "title": "Ветчина и сыр",
+          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
+          "new": false,
+          "price": 295,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 14,
+          "image": "utils/hawaiian.jpg",
+          "title": "Гавайская",
+          "description": "Ветчина из цыпленка, моцарелла, ананасы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 8,
+          "image": "utils/carbonara.jpg",
+          "title": "Карбонара",
+          "description": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 10,
+          "image": "utils/meat.jpg",
+          "title": "Мясная",
+          "description": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+          "new": false,
+          "price": 475,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 20,
+      "new": false
+    },
+    {
+      "id": 80,
+      "image": "utils/pizza_and_2_pasta.webp",
+      "title": "Пицца и 2 макарон",
+      "description": "Пицца 35 см и 2 макарон на выбор. Для компании из 2–4 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 1045,
+      "old_price": 1285,
+      "combo_components": [
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 18,
+          "image": "utils/macaron_pistachio_raspberry.webp",
+          "title": "Макарон Фисташка-малина",
+          "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        },
+        {
+          "id": 72,
+          "image": "utils/macaron_snickers.webp",
+          "title": "Макарон Сникерс",
+          "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 16,
+      "new": false
+    },
+    {
+      "id": 81,
+      "image": "utils/two_pizzas_and_four_pastas.webp",
+      "title": "2 пиццы и 4 макарон",
+      "description": "2 пиццы 30 см на любой вкус и 4 макарон на выбор. Для компании из 4–8 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
+      "new_price": 1895,
+      "old_price": 2290,
+      "combo_components": [
+        {
+          "id": 1,
+          "image": "utils/shrimp_and_truffles.png",
+          "title": "С креветками и трюфелями",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "new": false,
+          "price": 600,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 19,
+          "image": "utils/pepperoni.webp",
+          "title": "Пепперони",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+          "new": false,
+          "price": 445,
+          "category": "pizza",
+          "quantity": 1,
+          "sm": [
+            25,
+            30,
+            35
+          ],
+          "size": [
+            360,
+            460,
+            560
+          ]
+        },
+        {
+          "id": 18,
+          "image": "utils/macaron_pistachio_raspberry.webp",
+          "title": "Макарон Фисташка-малина",
+          "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        },
+        {
+          "id": 72,
+          "image": "utils/macaron_snickers.webp",
+          "title": "Макарон Сникерс",
+          "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        },
+        {
+          "id": 70,
+          "image": "utils/macaron_ferrero_rocher.webp",
+          "title": "Макарон Ферреро Роше",
+          "description": "Те самые макарон от Сабины Темиралиевой! Изысканный вкус сладкого фундучного пралине, сочного цельного жареного фундука и соленая карамель, дополненная благородством золотистых акцентов. Настоящий гастрономический шедевр!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        },
+        {
+          "id": 73,
+          "image": "utils/mango_passion_fruit_macaron.webp",
+          "title": "Макарон Манго-маракуйя",
+          "description": "Те самые макарон от Сабины Темиралиевой! Микс, который никогда не выйдет из трендов за счет своего умопомрачительного сочетания сладких ноток манго и фантастической кислинки маракуйи!",
+          "price": 250,
+          "category": "dessert",
+          "quantity": 1,
+          "new": false
+        }
+      ],
+      "category": "combo",
+      "quantity": 1,
+      "discount": 20,
+      "new": false
     }
   ],
   "users": [
@@ -451,961 +1806,13 @@
       "name": "nestan",
       "surname": "123",
       "id": 3
-    }
-  ],
-  "products_dessert": [
-    {
-      "id": 1,
-      "image": "utils/sorbet_turkish_pomegranate_with_strawberries.webp",
-      "title": "Сорбет Турецкий гранат с клубникой",
-      "description": "Горячий восток в прохладном десерте. Оцените дуэт граната и сладкой клубники. Название продукта фантазийное и не означает, что продукт содержит гранаты из Турции",
-      "price": 130,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
     },
     {
-      "id": 2,
-      "image": "utils/sorbet_brazilian_passion_fruit_and_mango.webp",
-      "title": "Сорбет Бразильская маракуйя и манго",
-      "description": "Сладкое солнце Бразилии. Яркий сорбет из маракуйи и манго. Название продукта фантазийное и не означает, что продукт содержит маракуйю из Бразилии",
-      "price": 130,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 3,
-      "image": "utils/strawberry_donut.webp",
-      "title": "Пончик клубничный",
-      "description": "Нежный пончик с клубничной начинкой и разноцветной посыпкой",
-      "price": 149,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 4,
-      "image": "utils/donut_three_chocolates.webp",
-      "title": "Пончик Три шоколадай",
-      "description": "Нежный пончик с шоколадной начинкой, глазурью и посыпкой",
-      "price": 149,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 5,
-      "image": "utils/brownie.webp",
-      "title": "Брауни",
-      "description": "Умножили какао на шоколад и получили изумительный десерт. Вот такая сладкая арифметика!",
-      "price": 149,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 6,
-      "image": "utils/tiramisu.webp",
-      "title": "Тирамису",
-      "description": "Десерт со вкусом dolce vita! Многослойный нежный тирамису в лучших итальянских традициях!",
-      "price": 189,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 7,
-      "image": "utils/muffin_three_chocolates.webp",
-      "title": "Маффин Три шоколада",
-      "description": "Десерт из натурального какао, нежной начинки на основе шоколада и кубиков белого и молочного шоколада",
-      "price": 129,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 8,
-      "image": "utils/salted_caramel_muffin.webp",
-      "title": "Маффин соленая карамель",
-      "description": "Десерт из натурального какао с необычным сочетанием соленой карамели и арахиса",
-      "price": 129,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 9,
-      "image": "utils/cheesecake.webp",
-      "title": "Чизкейк",
-      "description": "Классический американский десерт с мягким бархатистым вкусом",
-      "price": 159,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 10,
-      "image": "utils/banana_cheesecake_with_chocolate_cookies.webp",
-      "title": "Чизкейк Банановый с шоколадным печеньем",
-      "description": "Нежный десерт с бананом и шоколадным печеньем",
-      "price": 159,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 11,
-      "image": "utils/bracelets.webp",
-      "title": "Бруслетики",
-      "description": "Сладкие рулетики с натуральной брусникой",
-      "price": 169,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 12,
-      "image": "utils/cinnamon_rolls.webp",
-      "title": "Рулетики с корицей",
-      "description": "Сладкие рулетики с корицей",
-      "price": 169,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 13,
-      "image": "utils/syrniki.webp",
-      "title": "Сырники",
-      "description": "Нежные, в меру сладкие и румяные сырники из печи со сгущенным молоком. Любимый десерт наших гостей!",
-      "price": 295,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 14,
-      "image": "utils/cheesecakes_with_raspberry_jam.webp",
-      "title": "Сырники с малиновым вареньем",
-      "description": "Нежные сырники, приготовленные в печи, с малиновым вареньем",
-      "price": 295,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 15,
-      "image": "utils/fondant.webp",
-      "title": "Фондан",
-      "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
-      "price": 295,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 16,
-      "image": "utils/fairy_tale_dessert_with_toy.webp",
-      "title": "Десерт-сказка с игрушкой на коробке",
-      "description": "Волшебное сочетание ананасов и шоколадного соуса на слоеном тесте. В наборе игрушка-конструктор из коробки и сказка.",
-      "price": 295,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 17,
-      "image": "utils/macaron_ferrero_rocher.webp",
-      "title": "Макарон Ферреро Роше",
-      "description": "Те самые макарон от Сабины Темиралиевой! Изысканный вкус сладкого фундучного пралине, сочного цельного жареного фундука и соленая карамель, дополненная благородством золотистых акцентов. Настоящий гастрономический шедевр!",
-      "price": 250,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 18,
-      "image": "utils/macaron_pistachio_raspberry.webp",
-      "title": "Макарон Фисташка-малина",
-      "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
-      "price": 250,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 19,
-      "image": "utils/macaron_snickers.webp",
-      "title": "Макарон Сникерс",
-      "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
-      "price": 250,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 20,
-      "image": "utils/mango_passion_fruit_macaron.webp",
-      "title": "Макарон Манго-маракуйя",
-      "description": "Те самые макарон от Сабины Темиралиевой! Микс, который никогда не выйдет из трендов за счет своего умопомрачительного сочетания сладких ноток манго и фантастической кислинки маракуйи!",
-      "price": 250,
-      "category": "dessert",
-      "quantity": 1,
-      "new": false
-    }
-  ],
-  "products_combo": [
-    {
-      "id": 1,
-      "image": "utils/two_pizzas_and_a_drink.webp",
-      "title": "2 пиццы и напиток",
-      "description": "Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2 - 4 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 885,
-      "old_price": 1090,
-      "combo_components": [
-        {
-          "id":4,
-          "new": false,
-          "image": "utils/coca_cola.webp",
-          "title": "Кока-Кола",
-          "description": "Этот напиток обладает сладковато-газированным вкусом, сочетающимся с легкой карамельной ноткой",
-          "price": "75",
-          "category": "beverages",
-          "ml": [
-            "0,5","1.0"
-          ],
-          "quantity":1
-        },
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 5,
-          "image":"utils/ham_and_cheese.jpg",
-          "title": "Ветчина и сыр",
-          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
-          "new": false,
-          "price": 295,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 12,
-      "new": false
-    },
-    {
-      "id": 2,
-      "image": "utils/two_birds.webp",
-      "title": "2 пиццы",
-      "description": "Парочка что надо. 2 средние пиццы. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 1095,
-      "old_price": 1290,
-      "combo_components": [
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 17,
-          "image":"utils/arriva.jpg",
-          "title": "Аррива!",
-          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 15,
-      "new": false
-    },
-    {
-      "id": 3,
-      "image": "utils/three_pizzas.webp",
-      "title": "3 пиццы",
-      "description": "Три удовольствия в нашем меню - это три средние пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 1645,
-      "old_price": 1935,
-      "combo_components": [
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 20,
-          "image":"utils/chicken_ranch.jpg",
-          "title": "Цыпленок ранч",
-          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 15,
-      "new": false
-    },
-    {
-      "id": 4,
-      "image": "utils/five_pizzas.webp",
-      "title": "5 пиццы",
-      "description": "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10 - 15 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 2645,
-      "old_price": 3225,
-      "combo_components": [
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 20,
-          "image":"utils/chicken_ranch.jpg",
-          "title": "Цыпленок ранч",
-          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 8,
-          "image":"utils/carbonara.jpg",
-          "title": "Карбонара",
-          "description": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 17,
-          "image":"utils/arriva.jpg",
-          "title": "Аррива!",
-          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 18,
-      "new": false
-    },
-    {
-      "id": 5,
-      "image": "utils/seven_pizzas.webp",
-      "title": "7 пиццы",
-      "description": "7 - счастливое число, особенно если речь о 7 средних пиццах на компанию 15 - 20 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 3695,
-      "old_price": 4515,
-      "combo_components": [
-        {
-          "id": 5,
-          "image":"utils/ham_and_cheese.jpg",
-          "title": "Ветчина и сыр",
-          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
-          "new": false,
-          "price": 295,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 17,
-          "image":"utils/arriva.jpg",
-          "title": "Аррива!",
-          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 10,
-          "image":"utils/meat.jpg",
-          "title": "Мясная",
-          "description": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
-          "new": false,
-          "price": 475,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 20,
-          "image":"utils/chicken_ranch.jpg",
-          "title": "Цыпленок ранч",
-          "description": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 16,
-          "image":"utils/bbq_chicken.jpg",
-          "title": "Цыпленок барбекю",
-          "description": "Цыпленок, ветчина из цыпленка, моцарелла, красный лук, соус барбекю, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 18,
-      "new": false
-    },
-    {
-      "id": 6,
-      "image": "utils/ten_pizzas.webp",
-      "title": "10 пиццы",
-      "description": "Великолепная десятка. 10 средних пицц на любой вкус. Для компании из 20 - 30 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 5145,
-      "old_price": 6450,
-      "combo_components": [
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 17,
-          "image":"utils/arriva.jpg",
-          "title": "Аррива!",
-          "description": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 5,
-          "image":"utils/ham_and_cheese.jpg",
-          "title": "Ветчина и сыр",
-          "description": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
-          "new": false,
-          "price": 295,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 14,
-          "image":"utils/hawaiian.jpg",
-          "title": "Гавайская",
-          "description": "Ветчина из цыпленка, моцарелла, ананасы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 8,
-          "image":"utils/carbonara.jpg",
-          "title": "Карбонара",
-          "description": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 10,
-          "image":"utils/meat.jpg",
-          "title": "Мясная",
-          "description": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
-          "new": false,
-          "price": 475,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 20,
-      "new": false
-    },
-    {
-      "id": 7,
-      "image": "utils/pizza_and_2_pasta.webp",
-      "title": "Пицца и 2 макарон",
-      "description": "Пицца 35 см и 2 макарон на выбор. Для компании из 2–4 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 1045,
-      "old_price": 1285,
-      "combo_components": [
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 18,
-          "image": "utils/macaron_pistachio_raspberry.webp",
-          "title": "Макарон Фисташка-малина",
-          "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        },
-        {
-          "id": 19,
-          "image": "utils/macaron_snickers.webp",
-          "title": "Макарон Сникерс",
-          "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 16,
-      "new": false
-    },
-    {
-      "id": 8,
-      "image": "utils/two_pizzas_and_four_pastas.webp",
-      "title": "2 пиццы и 4 макарон",
-      "description": "2 пиццы 30 см на любой вкус и 4 макарон на выбор. Для компании из 4–8 человек. Цена комбо зависит от выбранных пицц и может быть увеличена",
-      "new_price": 1895,
-      "old_price": 2290,
-      "combo_components": [
-        {
-          "id":1,
-          "image":"utils/shrimp_and_truffles.png",
-          "title": "С креветками и трюфелями",
-          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-          "new": false,
-          "price":600,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 19,
-          "image":"utils/pepperoni.webp",
-          "title": "Пепперони",
-          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
-          "new": false,
-          "price": 445,
-          "category": "pizza",
-          "quantity":1,
-          "sm": [25,30,35],
-          "size": [360,460,560]
-        },
-        {
-          "id": 18,
-          "image": "utils/macaron_pistachio_raspberry.webp",
-          "title": "Макарон Фисташка-малина",
-          "description": "Те самые макарон от Сабины Темиралиевой! Фисташка-малина - классический вкус, мы рекомендуем начать знакомство с линейкой макарон именно с него!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        },
-        {
-          "id": 19,
-          "image": "utils/macaron_snickers.webp",
-          "title": "Макарон Сникерс",
-          "description": "Те самые макарон от Сабины Темиралиевой! Представьте сникерс, только в ручном исполнении. Еще больше орехов, шоколада и нуги!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        },
-        {
-          "id": 17,
-          "image": "utils/macaron_ferrero_rocher.webp",
-          "title": "Макарон Ферреро Роше",
-          "description": "Те самые макарон от Сабины Темиралиевой! Изысканный вкус сладкого фундучного пралине, сочного цельного жареного фундука и соленая карамель, дополненная благородством золотистых акцентов. Настоящий гастрономический шедевр!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        },
-        {
-          "id": 20,
-          "image": "utils/mango_passion_fruit_macaron.webp",
-          "title": "Макарон Манго-маракуйя",
-          "description": "Те самые макарон от Сабины Темиралиевой! Микс, который никогда не выйдет из трендов за счет своего умопомрачительного сочетания сладких ноток манго и фантастической кислинки маракуйи!",
-          "price": 250,
-          "category": "dessert",
-          "quantity": 1,
-          "new": false
-        }
-      ],
-      "category": "combo",
-      "quantity": 1,
-      "discount": 20,
-      "new": false
-    }
-  ],
-  "products_snacks": [
-    {
-      "id": 1,
-      "image": "utils/dodster_with_ham.webp",
-      "title": "Додстер с ветчиной",
-      "description": "Горячая закуска с ветчиной из цыпленка, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
-      "price": 189,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 2,
-      "image": "utils/dodster.webp",
-      "title": "Додстер",
-      "description": "Горячая закуска с цыплёнком, моцареллой, томатами и соусом ранч в тонкой пшеничной лепешке",
-      "price": 189,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 3,
-      "image": "utils/spicy_dodster.webp",
-      "title": "Острый Додстер",
-      "description": "Горячая закуска с цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
-      "price": 199,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 4,
-      "image": "utils/danwich_ham_and_cheese.webp",
-      "title": "Дэнвич Ветчина и сыр",
-      "description": "Поджаристая чиабатта и знакомое сочетание ветчины из цыпленка, цыпленка, моцареллы со свежими томатами и соусом ранч",
-      "price": 199,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 5,
-      "image": "utils/danwich_chorizo_bbq.webp",
-      "title": "Дэнвич Чоризо-Барбекю",
-      "description": "Поджаристая чиабатта и знакомое сочетание ветчины из цыпленка, цыпленка, моцареллы со свежими томатами и соусом ранч",
-      "price": 199,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 6,
-      "image": "utils/mushroom_starter.webp",
-      "title": "Грибной Стартер",
-      "description": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
-      "price": 169,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 7,
-      "image": "utils/spicy_starter.webp",
-      "title": "Острый Стартер",
-      "description": "Горячая закуска с острым цыпленком, колбасками чоризо, моцареллой, перцем халапеньо и соусом сальса в тонкой пшеничной лепешке",
-      "price": 169,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 8,
-      "image": "utils/pasta_sarbonara.webp",
-      "title": "Паста Карбонара",
-      "description": "Паста с ветчиной из цыпленка, сырами моцарелла, чеддер и пармезан, томатами, чесноком и фирменным соусом альфредо",
-      "price": 315,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 9,
-      "image": "utils/pesto_pasta.webp",
-      "title": "Паста Песто",
-      "description": "Паста с цыпленком, моцареллой, томатами, соусом песто и фирменным томатным соусом",
-      "price": 315,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 10,
-      "image": "utils/pesto_meat.webp",
-      "title": "Паста Мясная",
-      "description": "Паста с фаршем из говядины, моцареллой, чесноком, соусом бургер и фирменным томатным соусом",
-      "price": 315,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 11,
-      "image": "utils/potatoes_from_the_oven.webp",
-      "title": "Картофель из печи, большая порция.",
-      "description": "Ароматный запеченный картофель с итальянскими травами. Большая порция!",
-      "price": 189,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 12,
-      "image": "utils/lunchbox_with_chicken_pieces.webp",
-      "title": "Ланчбокс с куриными кусочками",
-      "description": "Горячий сытный обед с нежными куриными кусочками, картофелем из печи, итальянскими травами и сырным соусом",
-      "price": 325,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 13,
-      "image": "utils/lunchbox_with_bbq_wings.webp",
-      "title": "Ланчбокс с крыльями барбекю",
-      "description": "Горячий сытный обед с куриными крылышками со специями и ароматом копчения и картофеля из печи с итальянскими травами и соусом барбекю",
-      "price": 325,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 14,
-      "image": "utils/chicken_pieces.webp",
-      "title": "Куриные кусочки",
-      "description": "Кусочки куриного филе в хрустящей панировке",
-      "price": 395,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 15,
-      "image": "utils/bbq_wings.webp",
-      "title": "Крылья барбекю",
-      "description": "Пикантные куриные крылышки со специями и ароматом копчения",
-      "price": 395,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 16,
-      "image": "utils/pepperoni_rolls_cheese_rolls.webp",
-      "title": "Рулетики с пепперони + Рулетики с сыром",
-      "description": "Микс горячих рулетиков с сырным соусом: 8 штук с пепперони и моцареллой, 8 штук с моцареллой",
-      "price": 245,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 17,
-      "image": "utils/caesar_salad.webp",
-      "title": "Салат Цезарь",
-      "description": "Цыпленок, смесь сыров чеддер и пармезан, томаты черри, пшеничные гренки, листья салата айсберг, итальянские травы и соус Цезарь",
-      "price": 189,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
-    },
-    {
-      "id": 18,
-      "image": "utils/greek_salad.webp",
-      "title": "Салат Греческий",
-      "description": "Салат айсберг, томаты черри, маслины и огурчики, кубики брынзы, соус бальзамик",
-      "price": 159,
-      "category": "snacks",
-      "quantity": 1,
-      "new": false
+      "email": "abdurazakovemir@fmail.com",
+      "password": "$2a$10$7Lt3xx1dq6b5j1.vE5Fr2O5eY5XXgMgMYUJZcttZ7WIOl8Q5VDqcK",
+      "name": "Emir",
+      "surname": "Abdirazakob",
+      "id": 4
     }
   ]
 }
