@@ -1,10 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
 import axios from "axios";
 import './single.scss'
 import holopen from './image/holopen.png'
+import {CustomContext} from "../../Context";
 
 const Single = () => {
+    const {addBasket} = useContext(CustomContext)
     const [onePizza,setOnePizza] = useState({})
     const id = useLocation().pathname.at(-1)
     useEffect(()=>{
@@ -46,8 +48,8 @@ const Single = () => {
                                 <h4>от 120 сом</h4>
                             </div>
                         </div>
-                        <button>
-                            Добавить в корзину 1 048 ₽
+                        <button onClick={()=>addBasket(onePizza.id)}>
+                            Добавить в корзину {onePizza.price} сом
                         </button>
                     </div>
                 </div>
