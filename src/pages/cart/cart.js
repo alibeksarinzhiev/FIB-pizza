@@ -5,7 +5,7 @@ import './cart.scss'
 import {CustomContext} from "../../Context";
 
 const Cart = () => {
-    const {basket} = useContext(CustomContext)
+    const {basket,plusOne} = useContext(CustomContext)
 
 
     return (
@@ -16,21 +16,21 @@ const Cart = () => {
                     <div className="cart__one">
                         <div className="cart__info">
                             <img src={el.image} alt=""/>
-                            <div className="cart__text">
+                            <div className="cart__text">x`
                                 <h3>{el.title}</h3>
                                 <p>{el.description}</p>
                             </div>
                         </div>
                         <div className="cart__price">
 
-                            <h2>{el.price}</h2>
+                            <h2>{el.price * el.quantity}</h2>
 
                         </div>
                         <div className="cart__all">
                             <div className="cart__quantity">
                                 <span className='cart__minus' >-</span>
                                 <h3>{el.quantity}</h3>
-                                <span className='cart__plus'>+</span>
+                                <span className='cart__plus' onClick={()=>plusOne(el.id)}>+</span>
                             </div>
                         </div>
 
@@ -38,6 +38,10 @@ const Cart = () => {
                     </div>
 
                 ))}
+                <h2>ВСЕГО: {basket.reduce((acc,rec)=>(
+                    acc + rec.quantity * rec.price
+                ),0)}</h2>
+
             </div>
         </section>
     );

@@ -8,7 +8,7 @@ import {CustomContext} from "../../Context";
 const Single = () => {
     const {addBasket} = useContext(CustomContext)
     const [onePizza,setOnePizza] = useState({})
-    const id = useLocation().pathname.at(-1)
+    const id = useLocation().pathname.split('/').at(-1)
     useEffect(()=>{
         axios(`http://localhost:8080/products_pizza/${id}`)
             .then(({data})=>setOnePizza(data))

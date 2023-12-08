@@ -1,23 +1,45 @@
 import {createContext, useEffect, useState} from "react";
 import axios from "axios";
-import {JS} from "json-server/lib/cli/utils/is";
 
 export const CustomContext = createContext();
 
 export const Context = (props)=>{
-
-    const [name,setName] = useState('alibek1243346')
+    const [product,setProduct] = useState([])
     const [pizza,setPizza] = useState([])
     const [beverages,setBeverages] = useState([])
     const [basket,setBasket] = useState([])
     const [snacks,setSnacks] = useState([])
     const [dessert,setDessert] = useState([])
     const [combo,setCombo] = useState([])
+    useEffect(()=>{
+        axios('http://localhost:8080/products_pizza')
+            .then(({data})=>setProduct(data))
+    },[])
+
+
+
+    const plusOne = (id)=>{
+        const find = pizza.find (el =>el.id === id)
+        setBasket(basket.map((el)=>{
+            if (el.id === id){
+                if (el.quantity >30){
+                    alert('больше 30 нельзя')
+                    return el
+                }
+                return {...el,quantity:el.quantity+ +1}
+            }
+            return el
+        }))
+
+    }
 
     const addBasket = (id)=>{
         console.log('товар добавлен в корзину c id номером' + id)
-        const find = pizza.find (el =>el.id === id)
-        setBasket([...basket,find])
+        const find = product.find (el =>el.id === id)
+
+            setBasket( [...basket,find])
+
+
         console.log(basket)
     }
     useEffect(()=>{
@@ -102,7 +124,6 @@ setUser(JSON.parse(localStorage.getItem('user')))
     },[])
 
     const value = {
-        name,
         pizza,
         setPizza,
         user,
@@ -121,7 +142,8 @@ setUser(JSON.parse(localStorage.getItem('user')))
         addSnacks,
         addDessert,
         addCombo,
-        basket
+        basket,
+        plusOne
     }
     return <CustomContext.Provider value={value}>
         {props.children}
