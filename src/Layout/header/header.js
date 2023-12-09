@@ -7,7 +7,7 @@ import {CustomContext} from "../../Context";
 
 
 const Header = () => {
-    const {user,logOut} = useContext(CustomContext)
+    const {user,logOut,basket} = useContext(CustomContext)
     return (
         <header className='header'>
             <div className="container">
@@ -54,7 +54,7 @@ const Header = () => {
                         </Link> }
 
         <Link to='/cart'>
-            <button>Корзина</button>
+            <button>Корзина {basket.length}</button>
 
         </Link>
                 </div>

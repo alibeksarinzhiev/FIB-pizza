@@ -13,6 +13,7 @@ import Beverages from "./pages/home/beverages/beverages";
 import Dessert from "./pages/home/dessert/dessert";
 import Combo from "./pages/home/combo/combo";
 import Snacks from "./pages/home/snacks/snacks";
+import AdminAdd from "./pages/adminAdd/adminAdd";
 
 const App = () => {
     return (
@@ -30,6 +31,7 @@ const App = () => {
                 <Route path={'dessert'} element={<Dessert/>}/>
                 <Route path={'combo'} element={<Combo/>}/>
                 <Route path={'snacks'} element={<Snacks/>}/>
+                <Route path={'adminadd'} element={<AdminAdd/>}/>
             </Route>
             </Routes>
         </>

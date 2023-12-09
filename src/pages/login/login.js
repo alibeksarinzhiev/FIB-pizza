@@ -1,9 +1,36 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Exet from './image/Close.png'
 import './login.scss'
 import {Link} from "react-router-dom";
+import {CustomContext} from "../../Context";
+import {useForm} from "react-hook-form";
+import axios from "axios";
+import {useNavigate} from 'react-router-dom'
+
 
 const Login = () => {
+    const navigate = useNavigate()
+
+
+    const {login,user,setUser} = useContext(CustomContext)
+    const {
+        register,
+        handleSubmit,
+        reset
+    } = useForm()
+
+    const loginUser = (data)=>{
+        axios.post('http://localhost:8080/login',data )
+            .then((res)=>{
+                localStorage.setItem('user',JSON.stringify(res.data.user))
+               setUser(res.data.user)
+            })
+        navigate('/')
+
+    }
+
+
+
     return (
         <div className='login container'>
             <div className="login__top">
@@ -12,14 +39,17 @@ const Login = () => {
                     <img src={Exet} alt=""/>
                 </Link>
             </div>
+            <form onSubmit={handleSubmit(loginUser)}>
+
+
             <div className="login__center">
                 <div className="login__text">
                     <p>Введите номер телефона или @mail</p>
                     <p>Введите пороль</p>
                 </div>
                 <div className="login__input">
-                    <input type="text" placeholder='Phone or @mail'/>
-                    <input type="text" placeholder='Password'/>
+                    <input {...register('email')} type="text" placeholder='Phone or @mail'/>
+                    <input {...register('password')} type="text" placeholder='Password'/>
                 </div>
             </div>
             <div className="login__vhod">
@@ -29,6 +59,7 @@ const Login = () => {
                 </Link>
                 <p>Продолжая, вы соглашаетесь со сбором и обработкой персональных данных и пользовательским соглашением</p>
             </div>
+            </form>
          
         </div>
     );

@@ -1783,6 +1783,18 @@
       "quantity": 1,
       "discount": 20,
       "new": false
+    },
+    {
+      "id": "82",
+      "title": "новая пицца",
+      "description": "К сожалению, копирование текста запрещено на нашем сайте",
+      "image": "https://api.01.hungrygator.ru/uploads/5f1fe877b2136b692b8ed805/image2_1643196527362_%D0%BF%D0%BE%D0%BF%D1%80%D0%BE%D0%BF%D1%80.jpg",
+      "price": "500",
+      "new": "false",
+      "category": "pizza",
+      "quantity": "1",
+      "sm": "25",
+      "size": "450"
     }
   ],
   "users": [
@@ -1813,6 +1825,21 @@
       "name": "Emir",
       "surname": "Abdirazakob",
       "id": 4
+    },
+    {
+      "email": "ali24@mail.ru",
+      "password": "$2a$10$HQ4OcAev8mp2xEVgy8S9Du/rGeuZ29r/92KnFQqBpa3X2aNy6LnES",
+      "name": "alibeek",
+      "surname": "123",
+      "id": 5
+    },
+    {
+      "email": "test@mail.ru",
+      "password": "$2a$10$agJahL56.zKngiuSNzhkee8NF7L7toMQTjWX7JX5T/lAU9yI74DmS",
+      "name": "test",
+      "surname": "1234",
+      "userBasket": [],
+      "id": 6
     }
   ]
 }

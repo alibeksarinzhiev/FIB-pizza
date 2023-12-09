@@ -11,6 +11,7 @@ export const Context = (props)=>{
     const [snacks,setSnacks] = useState([])
     const [dessert,setDessert] = useState([])
     const [combo,setCombo] = useState([])
+    const [user,setUser]= useState({email:''})
 
 
 
@@ -67,12 +68,17 @@ export const Context = (props)=>{
     }
 
     const addBasket = (id)=>{
-        console.log('товар добавлен в корзину c id номером' + id)
         const find = product.find (el =>el.id === id)
+        const localUser = JSON.parse(localStorage.getItem('user'))
 
-        setBasket( [...basket,find])
+        if (user.email.length<1){
+            alert('сначало войдите в аккаунт чтобы добавлять в корзину')
+        }else {
+            setBasket( [...basket,find])
 
-        console.log(basket)
+        }
+
+
     }
     useEffect(()=>{
         axios('http://localhost:8080/products_pizza')
@@ -149,7 +155,6 @@ export const Context = (props)=>{
         console.log('удален объект с id ' + id)
     }
 
-    const [user,setUser]= useState({email:''})
 
     const logOut = ()=>{
         console.log(user)
@@ -161,6 +166,10 @@ export const Context = (props)=>{
         if (JSON.parse(localStorage.getItem('user')) !==null)
 setUser(JSON.parse(localStorage.getItem('user')))
     },[])
+
+    const login=(data)=>{
+        console.log(data)
+    }
 
     const value = {
         pizza,
@@ -184,7 +193,8 @@ setUser(JSON.parse(localStorage.getItem('user')))
         basket,
         plusOne,
         minusOne,
-        deleteObject
+        deleteObject,
+        login
     }
     return <CustomContext.Provider value={value}>
         {props.children}

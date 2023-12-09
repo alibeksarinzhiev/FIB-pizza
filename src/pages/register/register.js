@@ -26,7 +26,8 @@ const Register = () => {
             name:e.target[0].value,
             surname:e.target[1].value,
             email:e.target[2].value,
-            password:e.target[3].value
+            password:e.target[3].value,
+            userBasket:[]
         }
 
         axios.post('http://localhost:8080/register',newUser )

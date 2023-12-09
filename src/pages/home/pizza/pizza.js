@@ -4,8 +4,7 @@ import {Link} from "react-router-dom";
 import {CustomContext} from "../../../Context";
 
 const Pizza = () => {
-    const {pizza,addBasket} = useContext(CustomContext)
-
+    const {pizza,addBasket,basket} = useContext(CustomContext)
 
     return (
         <section className='pizza'>
@@ -24,7 +23,17 @@ const Pizza = () => {
                             </div>
                             <div className="pizza__bottom">
                                 <h4>{el.price} сом</h4>
-                                <button onClick={()=>addBasket(el.id)}>В корзину</button>
+                                {basket.find(item=>item.id ===el.id)
+                                    ?
+                                    <div> <button>удалить из корзины</button>
+                                        <button>+</button>
+
+                                    </div>
+
+                                    :
+                                        <button onClick={()=>addBasket(el.id)}>В корзину</button>
+                                }
+
                             </div>
                         </div>
                     ))}
