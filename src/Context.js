@@ -26,7 +26,7 @@ export const Context = (props)=>{
         const find = pizza.find (el =>el.id === id)
         setBasket(basket.map((el)=>{
             if (el.id === id){
-                if (el.quantity === 5){
+                if (el.quantity === 30){
                     el.quantity = 'max'
                     return el
                 }
@@ -56,7 +56,7 @@ export const Context = (props)=>{
                     return el
                 }
                 else if (el.quantity === 'max'){
-                    el.quantity = 5
+                    el.quantity = 30
                     return el
                 }
                 return {...el,quantity:el.quantity - 1}
