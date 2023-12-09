@@ -70,8 +70,7 @@ export const Context = (props)=>{
         console.log('товар добавлен в корзину c id номером' + id)
         const find = product.find (el =>el.id === id)
 
-            setBasket( [...basket,find])
-
+        setBasket( [...basket,find])
 
         console.log(basket)
     }

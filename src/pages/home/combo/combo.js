@@ -25,7 +25,7 @@ const Combo = () => {
                             </div>
                             <div className="combo__bottom">
                                 <div className="combo__price">
-                                    <h4>{el.new_price} сом</h4>
+                                    <h4>{el.price} сом</h4>
                                     <s><h5>{el.old_price} com</h5></s>
                                 </div>
                                 <button onClick={()=>addCombo(el.id)}>В корзину</button>
