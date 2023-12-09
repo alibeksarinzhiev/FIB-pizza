@@ -11,6 +11,9 @@ export const Context = (props)=>{
     const [snacks,setSnacks] = useState([])
     const [dessert,setDessert] = useState([])
     const [combo,setCombo] = useState([])
+
+
+
     useEffect(()=>{
         axios('http://localhost:8080/products_pizza')
             .then(({data})=>setProduct(data))
@@ -22,11 +25,40 @@ export const Context = (props)=>{
         const find = pizza.find (el =>el.id === id)
         setBasket(basket.map((el)=>{
             if (el.id === id){
-                if (el.quantity >30){
-                    alert('больше 30 нельзя')
+                if (el.quantity === 5){
+                    el.quantity = 'max'
+                    return el
+                }
+                else if (el.quantity === 'max'){
+                    return el
+                }
+                else if (el.quantity === 'min'){
+                    el.quantity = 1
                     return el
                 }
                 return {...el,quantity:el.quantity+ +1}
+            }
+            return el
+        }))
+
+    }
+
+    const minusOne = (id)=>{
+        const find = pizza.find (el =>el.id === id)
+        setBasket(basket.map((el)=>{
+            if (el.id === id){
+                if (el.quantity === 1){
+                    el.quantity = 'min'
+                    return el
+                }
+                else if (el.quantity === 'min'){
+                    return el
+                }
+                else if (el.quantity === 'max'){
+                    el.quantity = 5
+                    return el
+                }
+                return {...el,quantity:el.quantity - 1}
             }
             return el
         }))
@@ -143,7 +175,8 @@ setUser(JSON.parse(localStorage.getItem('user')))
         addDessert,
         addCombo,
         basket,
-        plusOne
+        plusOne,
+        minusOne
     }
     return <CustomContext.Provider value={value}>
         {props.children}
