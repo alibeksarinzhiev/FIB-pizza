@@ -21,6 +21,7 @@ export const Context = (props)=>{
 
 
 
+
     const plusOne = (id)=>{
         const find = pizza.find (el =>el.id === id)
         setBasket(basket.map((el)=>{
@@ -138,9 +139,16 @@ export const Context = (props)=>{
     },[])
 
 
-
-
-
+    const deleteObject = (id)=>{
+        console.log('найдено' + id)
+        const find = combo.find (el =>el.id === id)
+        setBasket(basket.filter((el)=>{
+            if (el.id !== id){
+                return [...basket,el.id !== find]
+            }
+        }))
+        console.log('удален объект с id ' + id)
+    }
 
     const [user,setUser]= useState({email:''})
 
@@ -176,7 +184,8 @@ setUser(JSON.parse(localStorage.getItem('user')))
         addCombo,
         basket,
         plusOne,
-        minusOne
+        minusOne,
+        deleteObject
     }
     return <CustomContext.Provider value={value}>
         {props.children}

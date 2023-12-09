@@ -5,7 +5,7 @@ import './cart.scss'
 import {CustomContext} from "../../Context";
 
 const Cart = () => {
-    const {basket,plusOne,minusOne} = useContext(CustomContext)
+    const {basket,plusOne,minusOne,deleteObject} = useContext(CustomContext)
 
 
     return (
@@ -33,8 +33,9 @@ const Cart = () => {
                                 <span className='cart__plus' onClick={()=>plusOne(el.id)}>+</span>
                             </div>
                         </div>
-
-                        <img src={close} alt="close" />
+                        <span onClick={()=>deleteObject(el.id)}>
+                            <img src={close} alt="close" />
+                        </span>
                     </div>
 
                 ))}
