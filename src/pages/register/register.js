@@ -73,19 +73,20 @@ const Register = () => {
                     <label htmlFor="">
                         <input type="email" placeholder='Phone or @mail'/>
                     </label>
-                    <label htmlFor="">
+                    <label className='register__password' htmlFor="">
                         <input type={statusp?"text":'password'} placeholder='Password'/>
                         {statusp?
                             <FaEyeSlash onClick={()=>changeStatus()} />:
                             <FaEye onClick={()=>changeStatus()}/>
                         }
                     </label>
-                    <label htmlFor="">
-                        <input type="password" placeholder='Repeat password'/>
-                        <FaEye/>
-                        <FaEyeSlash />
+                    <label className='register__password' htmlFor="">
+                        <input type={statusp?"text":'password'} placeholder='Repeat password'/>
+                        {statusp?
+                            <FaEyeSlash onClick={()=>changeStatus()} />:
+                            <FaEye onClick={()=>changeStatus()}/>
+                        }
                     </label>
-
 
 
                 </div>

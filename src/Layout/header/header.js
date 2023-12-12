@@ -33,8 +33,8 @@ const Header = () => {
                     <ul>
                         <Link to=''>Пицца</Link>
                         <li>Паста</li>
-                        <li> Супы </li>
-                        <li>  Салаты  </li>
+                        <Link to='/coffee'> Кофе </Link>
+                        <Link to='/cocktails'>Коктели</Link>
                         <Link to='/beverages'>Напитки</Link>
                         <Link to='/dessert'> Десерты </Link>
                         <Link to='/snacks'> Закуски </Link>

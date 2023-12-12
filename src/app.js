@@ -14,6 +14,8 @@ import Dessert from "./pages/home/dessert/dessert";
 import Combo from "./pages/home/combo/combo";
 import Snacks from "./pages/home/snacks/snacks";
 import AdminAdd from "./pages/adminAdd/adminAdd";
+import Cocktails from "./pages/home/cocktails/cocktails";
+import Coffee from "./pages/home/coffee/coffee";
 
 const App = () => {
     return (
@@ -32,6 +34,8 @@ const App = () => {
                 <Route path={'combo'} element={<Combo/>}/>
                 <Route path={'snacks'} element={<Snacks/>}/>
                 <Route path={'adminadd'} element={<AdminAdd/>}/>
+                <Route path={'cocktails'} element={<Cocktails/>}/>
+                <Route path={'coffee'} element={<Coffee/>}/>
             </Route>
             </Routes>
         </>

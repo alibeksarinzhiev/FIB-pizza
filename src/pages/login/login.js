@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import Exet from './image/Close.png'
 import './login.scss'
 import {Link} from "react-router-dom";
@@ -6,11 +6,18 @@ import {CustomContext} from "../../Context";
 import {useForm} from "react-hook-form";
 import axios from "axios";
 import {useNavigate} from 'react-router-dom'
+import { FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+
 
 
 const Login = () => {
     const navigate = useNavigate()
+    const [statusp,setStatusp] = useState(false)
 
+    const changeStatus = ()=>{
+        setStatusp(!statusp)
+    }
 
     const {login,user,setUser} = useContext(CustomContext)
     const {
@@ -49,7 +56,14 @@ const Login = () => {
                 </div>
                 <div className="login__input">
                     <input {...register('email')} type="text" placeholder='Phone or @mail'/>
-                    <input {...register('password')} type="text" placeholder='Password'/>
+                    <div className="login__password">
+                        <input {...register('password')} type={statusp?"text":'password'} placeholder='Password'/>
+                        {statusp?
+                            <FaEyeSlash onClick={()=>changeStatus()} />:
+                            <FaEye onClick={()=>changeStatus()}/>
+                        }
+                    </div>
+
                 </div>
             </div>
             <div className="login__vhod">

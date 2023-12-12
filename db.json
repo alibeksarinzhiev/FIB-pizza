@@ -1785,17 +1785,97 @@
       "new": false
     },
     {
-      "id": "82",
-      "title": "новая пицца",
-      "description": "К сожалению, копирование текста запрещено на нашем сайте",
-      "image": "https://api.01.hungrygator.ru/uploads/5f1fe877b2136b692b8ed805/image2_1643196527362_%D0%BF%D0%BE%D0%BF%D1%80%D0%BE%D0%BF%D1%80.jpg",
-      "price": "500",
-      "new": "false",
-      "category": "pizza",
-      "quantity": "1",
-      "sm": "25",
-      "size": "450"
+      "id": 82,
+      "new": false,
+      "image": "utils/milkshake_caramel_apple.webp",
+      "title": "Молочный коктейль Карамельное яблоко",
+      "description": "Уютное сочетание яблочного вкуса, теплой карамели, молока и мороженого в вашем стакане",
+      "price": "199",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 83,
+      "new": false,
+      "image": "utils/banana_milkshake.webp",
+      "title": "Банановый молочный коктейль",
+      "description": "По-настоящему солнечный! Молочный коктейль с добавлением бананового пюре",
+      "price": "199",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 84,
+      "new": false,
+      "image": "utils/strawberry_milkshake.webp",
+      "title": "Клубничный молочный коктейль",
+      "description": "Не важно, какое время года на улице, этот коктейль с клубничным сиропом вернет вас в лето с одного глотка",
+      "price": "199",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 85,
+      "new": false,
+      "image": "utils/chocolate_milkshake.webp",
+      "title": "Шоколадный молочный коктейль",
+      "description": "Это шок! Шоколадный молочный коктейль со сливочным мороженым и фирменным какао",
+      "price": "189",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 86,
+      "new": false,
+      "image": "utils/oreo_milkshake.webp",
+      "title": "Молочный коктейль с печеньем Орео",
+      "description": "Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»",
+      "price": "199",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 87,
+      "new": false,
+      "image": "utils/classic_milkshake.webp",
+      "title": "Классический молочный коктейль",
+      "description": "В мире так много коктейлей, но классика — вечна. Попробуйте наш молочный напиток с мороженым",
+      "price": "189",
+      "category": "cocktails",
+      "ml": [
+        "0.3"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 88,
+      "new": false,
+      "image": "utils/coffee_americano.webp",
+      "title": "Кофе Американо",
+      "description": "Пара глотков горячего Американо, и вы будете готовы покорять этот день",
+      "price": "109",
+      "category": "coffee",
+      "ml": [
+        "0.4"
+      ],
+      "quantity": 1
     }
+
   ],
   "users": [
     {

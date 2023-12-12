@@ -12,7 +12,8 @@ export const Context = (props)=>{
     const [dessert,setDessert] = useState([])
     const [combo,setCombo] = useState([])
     const [user,setUser]= useState({email:''})
-
+    const [cocktails,setCocktails] = useState([])
+    const [coffee,setCoffee] = useState([])
 
 
     useEffect(()=>{
@@ -144,6 +145,35 @@ export const Context = (props)=>{
     },[])
 
 
+    const addCocktails = (id)=>{
+        console.log('товар добавлен в корзину c id номером' + id)
+        const find = cocktails.find (el =>el.id === id)
+        setBasket([...basket,find])
+        console.log(basket)
+    }
+    useEffect(()=>{
+        axios('http://localhost:8080/products_pizza')
+            .then(({data})=>setCocktails(data.filter((el)=>{
+                return el.category === 'cocktails'
+            })))
+    },[])
+
+
+
+    const addCoffee = (id)=>{
+        console.log('товар добавлен в корзину c id номером' + id)
+        const find = cocktails.find (el =>el.id === id)
+        setBasket([...basket,find])
+        console.log(basket)
+    }
+    useEffect(()=>{
+        axios('http://localhost:8080/products_pizza')
+            .then(({data})=>setCoffee(data.filter((el)=>{
+                return el.category === 'coffee'
+            })))
+    },[])
+
+
     const deleteObject = (id)=>{
         console.log('найдено' + id)
         const find = combo.find (el =>el.id === id)
@@ -194,7 +224,11 @@ setUser(JSON.parse(localStorage.getItem('user')))
         plusOne,
         minusOne,
         deleteObject,
-        login
+        login,
+        cocktails,
+        addCocktails,
+        coffee,
+        addCoffee
     }
     return <CustomContext.Provider value={value}>
         {props.children}
